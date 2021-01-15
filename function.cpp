@@ -113,7 +113,7 @@ int toggle(){
             }
         }
     }
-    this_thread::sleep_for(50ms);
+    this_thread::sleep_for(200ms);
     getch();
     return key;
 }
